@@ -1,0 +1,22 @@
+name: Jira Transitions
+author: Oursin
+description: An action to automate Jira Transitions on Jira Server
+inputs:
+  jiraUrl:
+    description: The URL to the JIRA instance
+    required: true
+  jiraUser:
+    description: The user to use to create the transition
+    required: true
+  jiraPassword:
+    description: The password of the user. Please use github secrets to store this value.
+    required: true
+  transitionId:
+    description: The transition ID of the transition to trigger
+    required: true
+runs:
+  using: 'node12'
+  main: main.js
+branding:
+  icon: 'arrow-right-circle'
+  color: 'blue'

@@ -1,0 +1,25 @@
+{
+  "name": "jira-transition-action",
+  "version": "1.0.0",
+  "description": "A Github Action to automatically trigger a transition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oursin/jira-transition-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oursin/jira-transition-action/issues"
+  },
+  "homepage": "https://github.com/Oursin/jira-transition-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0",
+    "request": "^2.88.0"
+  }
+}
